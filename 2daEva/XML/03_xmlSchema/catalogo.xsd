@@ -6,14 +6,15 @@
                 <xs:element name="base_datos">
                     <xs:complexType>
                         <xs:sequence>
-                            <xs:element name="libro" id="libro">
+                            <xs:element name="libro">
                                 <xs:complexType>
                                     <xs:sequence>
-                                        <xs:element name="titulo" type="xs:string"/>
-                                        <xs:element name="autor" type="xs:string"/>
-                                        <xs:element name="precio" type="xs:double"/>
-                                        <xs:element name="distribuidora" type="xs:string"/>
+                                        <xs:element name="titulo" type="xs:string"></xs:element>
+                                        <xs:element name="autor" type="xs:string"></xs:element>
+                                        <xs:element name="precio" type="xs:double"></xs:element>
+                                        <xs:element name="distribuidora" type="xs:string"></xs:element>
                                     </xs:sequence>
+                                    <xs:attribute name="libro" type="xs:string" use="required"></xs:attribute>
                                 </xs:complexType>
                             </xs:element>
                         </xs:sequence>

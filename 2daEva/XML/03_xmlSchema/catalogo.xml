@@ -2,7 +2,7 @@
 <catalogo xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
  xsi:noNamespaceSchemaLocation="catalogo.xsd">
     <base_datos>
-        <libro>
+        <libro libro="libro">
             <titulo>Mi libro</titulo>
             <autor>Yo</autor>
             <precio>15.0</precio>
