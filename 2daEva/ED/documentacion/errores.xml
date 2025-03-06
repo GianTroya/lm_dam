@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<errors>
+  <error>
+    <id>001</id>
+    <description>deja introducir espacios en blanco en todos los campos</description>
+    <steps>pulsa le tecla "espacio" en el campo </steps>
+    <expected></expected>
+    <obtained></obtained>
+    <solution>quitar los espacios del principio y final a la hora de introducir los datos y añadir un min.lenght</solution>
+  </error>
+  <error>
+    <id>002</id>
+    <description>deja introducir caracteres especiales y números en el nombre</description>
+    <steps></steps>
+    <expected></expected>
+    <obtained></obtained>
+    <solution>implementar una función que </solution>
+  </error>
+  <error>
+    <id>003</id>
+    <description>el marco del mensaje permite ampliar al infinito</description>
+    <steps></steps>
+    <expected></expected>
+    <obtained></obtained>
+    <solution>añador un máximo de ancho en el fichero style</solution>
+  </error>
+  <error>
+    <id>004</id>
+    <description>no tiene un límite de caracteres</description>
+    <steps></steps>
+    <expected></expected>
+    <obtained></obtained>
+    <solution>añadir un max.lenght</solution>
+  </error>
+  <errors>
+  <error>
+    <id>005</id>
+    <description>te deja enviar el formulario con campos incompletos</description>
+    <steps></steps>
+    <expected></expected>
+    <obtained></obtained>
+    <solution>implementar un required</solution>
+  </error>
+  <error>
+    <id>006</id>
+    <description>te deja poner el correo dos veces en el mismo campo de email</description>
+    <steps></steps>
+    <expected></expected>
+    <obtained></obtained>
+    <solution></solution>
+  </error>
+</errors>
+</errors>
