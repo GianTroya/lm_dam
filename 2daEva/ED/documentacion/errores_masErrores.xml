@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<errors>
+  <error>
+    <id>001</id>
+    <description>La edad permide números entre el -10 y 200</description>
+    <steps></steps>
+    <expected></expected>
+    <obtained></obtained>
+    <solution>limitarlo a un intervalo de entre 18 y 100 por ejemplo</solution>
+  </error>
+  <error>
+    <id>002</id>
+    <description>el email es de tipo "text" por lo que no es necesario que contenga el caracter de "@"</description>
+    <steps></steps>
+    <expected></expected>
+    <obtained></obtained>
+    <solution>cambiarlo a tipo email</solution>
+  </error>
+  <error>
+    <id>003</id>
+    <description>el apartado teléfono no tiene un límite de longitud para un número de teléfono realista</description>
+    <steps></steps>
+    <expected></expected>
+    <obtained></obtained>
+    <solution>imponerle un min.length y max.length</solution>
+  </error>
+  <error>
+    <id>004</id>
+    <description>el checkbox de aceptar términos y condiciones que suele ser obligatorio para enviar un formulario, no tiene un required.</description>
+    <steps></steps>
+    <expected></expected>
+    <obtained></obtained>
+    <solution>implementar un required</solution>
+  </error>
+  <error>
+    <id>005</id>
+    <description>En el script no hay ninguna función que nos permita confirmar que ambas contraseñas coinciden.</description>
+    <steps></steps>
+    <expected></expected>
+    <obtained></obtained>
+    <solution>implementar una función que cumpla con dicho objetivo.</solution>
+  </error>
+  <error>
+    <id>006</id>
+    <description>al no contener un required se podría enviar el formulario en blanco.</description>
+    <steps></steps>
+    <expected></expected>
+    <obtained></obtained>
+    <solution>implementar un required</solution>
+  </error>
+  <error>
+    <id>007</id>
+    <description>los espacios en blanco lo cuenta como caracter, por lo que se podría dejar en blanco.</description>
+    <steps></steps>
+    <expected></expected>
+    <obtained></obtained>
+    <solution>añadir a las variables un .trim para eliminar espacios en blanco, y comprobar si está vacío</solution>
+  </error>
+    <error>
+    <id>008</id>
+    <description>Al refrescar la página automáticamente se hace click en el botón.</description>
+    <steps></steps>
+    <expected></expected>
+    <obtained></obtained>
+    <solution>añadir a las variables un .trim para eliminar espacios en blanco, y comprobar si está vacío</solution>
+  </error>
+</errors>
