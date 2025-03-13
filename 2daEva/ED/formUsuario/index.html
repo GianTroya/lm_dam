@@ -31,15 +31,34 @@ Ejercicio 1: Detectar errores con la consola del navegador
     Intenta enviar el formulario sin llenar los campos. ¿Qué errores aparecen en la consola?
     Encuentra los errores en el código y anótalos.
 
+    --Error 1: debería ser `.value`
+    let nombre = document.getElementById("nombre").valor;
+    let edad = document.getElementById("edad").value;
+
+    --Error 2: getElements los elmentos con identificador son unicos por lo que la función es en singular
+    let mensaje = document.getElementsById("mensaje");
+
+    --Error 3: ¿qué pasa si el campo está vacío?
+    if (edad < 18) { 
+        mensaje.textContent = "Debes ser mayor de edad";
+    }
+
+    console.log("Formulario validado correctamente");
+
 Ejercicio 2: Usar console.log() para inspeccionar valores
     Agrega console.log(nombre, edad); dentro de validarFormulario().
     Revisa la consola y verifica qué valores está capturando el código.
     ¿El mensaje de error aparece correctamente cuando la edad está vacía?
 
+    --En el nombre no es capaz de verificar qué valores está capturando (undefined)
+    --Mientras que en la edad recoge el valor "vacío" pero no salta ningún mensaje
+
 Ejercicio 3: Colocar breakpoints en la consola del navegador
     Abre index.html en el navegador.
     Abre la consola con F12 y en la pestaña de "Fuentes" o "Sources", abre script.js y coloca un breakpoint en la línea donde se obtiene el valor del nombre.    
     Inspecciona el código línea por línea.
+
+    -El depurador termina cuando se intenta obtener el elemento "mensaje".
 
 Ejercicio 4: Corregir los errores y mejorar la validación
     Corrige el error en la obtención del nombre
